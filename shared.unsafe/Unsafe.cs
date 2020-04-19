@@ -30,4 +30,24 @@ public static class Unsafe
             Marshal.ZeroFreeGlobalAllocUnicode(unmanagedString);
         }
     }
+
+    public static string DecryptString(string salt, string encrypted)
+    {
+        return Unsafe.ToInsecureString(ProtectedDataHelper.DecryptString(salt, encrypted));
+    }
+
+    public static string EncryptString(string salt, string encrypted)
+    {
+        SecureString ss = encrypted.ToSecureString();
+        
+        return ProtectedDataHelper.EncryptString(salt,  ss);
+    }
+
+    public static CryptDelegates CreateCryptDelegates()
+    {
+        CryptDelegates cd = new CryptDelegates();
+        cd.decryptString = DecryptString;
+        cd.encryptString = EncryptString;
+        return cd;
+    }
 }
