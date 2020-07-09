@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("shared.unsafe")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
