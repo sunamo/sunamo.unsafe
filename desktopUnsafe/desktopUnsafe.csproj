@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -7,7 +7,7 @@
     <ProjectGuid>{F0685F20-7242-4D30-A857-3950B19D0689}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>desktop.unsafe</RootNamespace>
+    <RootNamespace>desktopUnsafe</RootNamespace>
     <AssemblyName>desktop.@unsafe</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -65,13 +65,13 @@
       <Project>{f6f92307-b0b3-4d6c-bd9c-8b5ff5560dcf}</Project>
       <Name>sunamo</Name>
     </ProjectReference>
-    <ProjectReference Include="..\shared.unsafe\shared.unsafe.csproj">
+    <ProjectReference Include="..\sharedUnsafe\sharedUnsafe.csproj">
       <Project>{c55ccc4d-66cc-4de9-8e30-b04f62c6bb14}</Project>
-      <Name>shared.unsafe</Name>
+      <Name>sharedUnsafe</Name>
     </ProjectReference>
-    <ProjectReference Include="..\sunamo.unsafe\sunamo.unsafe.csproj">
+    <ProjectReference Include="..\sunamo.unsafe\sunamoUnsafe.csproj">
       <Project>{79edea24-8328-4285-8233-63c7387aa891}</Project>
-      <Name>sunamo.unsafe</Name>
+      <Name>sunamoUnsafe</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
