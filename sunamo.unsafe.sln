@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sharedUnsafe", "sharedUnsafe\sharedUnsafe.csproj", "{C55CCC4D-66CC-4DE9-8E30-B04F62C6BB14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sharedUnsafe", "sharedUnsafe\sharedUnsafe.csproj", "{C55CCC4D-66CC-4DE9-8E30-B04F62C6BB14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desktop", "..\sunamo\desktop\desktop.csproj", "{772CACC2-80F3-4948-A443-3043195836E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desktop", "..\sunamo\desktop\desktop.csproj", "{772CACC2-80F3-4948-A443-3043195836E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shared", "..\sunamo\shared\shared.csproj", "{77719C0D-7C8B-4B9E-A644-AEE7CEB35134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shared", "..\sunamo\shared\shared.csproj", "{77719C0D-7C8B-4B9E-A644-AEE7CEB35134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunamo", "..\sunamo\sunamo\sunamo.csproj", "{F6F92307-B0B3-4D6C-BD9C-8B5FF5560DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sunamo", "..\sunamo\sunamo\sunamo.csproj", "{F6F92307-B0B3-4D6C-BD9C-8B5FF5560DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xlf", "..\sunamo\Xlf\Xlf.csproj", "{00B76D22-B82F-43FD-AC48-4B1F56E6910F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xlf", "..\sunamo\Xlf\Xlf.csproj", "{00B76D22-B82F-43FD-AC48-4B1F56E6910F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sunamoUnsafe", "sunamoUnsafe\sunamoUnsafe.csproj", "{56C09DE7-E23D-4589-968A-5F1E790442E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desktopUnsafe", "desktopUnsafe\desktopUnsafe.csproj", "{F0685F20-7242-4D30-A857-3950B19D0689}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desktopUnsafe", "desktopUnsafe\desktopUnsafe.csproj", "{F0685F20-7242-4D30-A857-3950B19D0689}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,7 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C55CCC4D-66CC-4DE9-8E30-B04F62C6BB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C55CCC4D-66CC-4DE9-8E30-B04F62C6BB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C55CCC4D-66CC-4DE9-8E30-B04F62C6BB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C55CCC4D-66CC-4DE9-8E30-B04F62C6BB14}.Release|Any CPU.Build.0 = Release|Any CPU
 		{772CACC2-80F3-4948-A443-3043195836E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -48,7 +47,6 @@ Global
 		{56C09DE7-E23D-4589-968A-5F1E790442E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56C09DE7-E23D-4589-968A-5F1E790442E6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F0685F20-7242-4D30-A857-3950B19D0689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F0685F20-7242-4D30-A857-3950B19D0689}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0685F20-7242-4D30-A857-3950B19D0689}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0685F20-7242-4D30-A857-3950B19D0689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
