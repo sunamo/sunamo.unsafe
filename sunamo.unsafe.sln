@@ -1,7 +1,6 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29806.167
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sharedUnsafe", "sharedUnsafe\sharedUnsafe.csproj", "{C55CCC4D-66CC-4DE9-8E30-B04F62C6BB14}"
 EndProject
@@ -17,27 +16,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sunamoUnsafe", "sunamoUnsaf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desktopUnsafe", "desktopUnsafe\desktopUnsafe.csproj", "{F0685F20-7242-4D30-A857-3950B19D0689}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchTextBox", "..\sunamo.notmine\SearchTextBox\SearchTextBox.csproj", "{0594A06D-D9FD-4F40-A70A-7EB050039C60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchTextBox", "..\sunamo.notmine\SearchTextBox\SearchTextBox.csproj", "{0594A06D-D9FD-4F40-A70A-7EB050039C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunamoJson", "..\sunamoWithoutDep\SunamoJson\SunamoJson.csproj", "{F746209A-F7F3-43B6-B644-8E36BA287E8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoJson", "..\sunamoWithoutDep\SunamoJson\SunamoJson.csproj", "{F746209A-F7F3-43B6-B644-8E36BA287E8C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "duo", "..\sunamo\duo\duo.csproj", "{539D794E-1031-4FD9-BC27-A67570383F8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "duo", "..\sunamo\duo\duo.csproj", "{D4C45A56-F726-4B63-B94B-4172AC65F358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunamoMail", "..\sunamo\SunamoMail\SunamoMail.csproj", "{6576EA69-6270-483C-95E6-F26FB8242DD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoMail", "..\sunamo\SunamoMail\SunamoMail.csproj", "{6576EA69-6270-483C-95E6-F26FB8242DD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "win", "..\sunamo\win\win.csproj", "{B0645987-459C-445B-A5B3-9092F798FD75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "win", "..\sunamo\win\win.csproj", "{B0645987-459C-445B-A5B3-9092F798FD75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunamoExceptions", "..\sunamoWithoutDep\SunamoExceptions\SunamoExceptions.csproj", "{A6800AD7-53FE-442B-B428-DA0E59EF4EE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoExceptions", "..\sunamoWithoutDep\SunamoExceptions\SunamoExceptions.csproj", "{A6800AD7-53FE-442B-B428-DA0E59EF4EE3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resources", "..\sunamo\Resources\Resources.csproj", "{47A92337-E726-4C04-ADA4-780967254E43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resources", "..\sunamo\Resources\Resources.csproj", "{3204432D-B6E7-4481-BEB0-8B177AF809C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSec", "..\CredentialsWithoutDep\WinSec\WinSec.csproj", "{1BE95B82-BE12-489D-9CDC-0278364FCB88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinSec", "..\CredentialsWithoutDep\WinSec\WinSec.csproj", "{1BE95B82-BE12-489D-9CDC-0278364FCB88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fmdev.ResX", "..\sunamo.notmine\fmdev.ResX\fmdev.ResX.csproj", "{F5F6EB14-2113-42B3-94E3-892E66BC0954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fmdev.ResX", "..\sunamo.notmine\fmdev.ResX\fmdev.ResX.csproj", "{F5F6EB14-2113-42B3-94E3-892E66BC0954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XliffParser", "..\sunamo.notmine\XliffParser\XliffParser.csproj", "{F3F7FD73-64F8-417A-89AC-53905E0E0AA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XliffParser", "..\sunamo.notmine\XliffParser\XliffParser.csproj", "{F3F7FD73-64F8-417A-89AC-53905E0E0AA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "extensions", "..\sunamo\extensions\extensions.csproj", "{1809AF97-F67C-44A4-A408-4AB58F445A84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "extensions", "..\sunamo\extensions\extensions.csproj", "{1809AF97-F67C-44A4-A408-4AB58F445A84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoDebugging", "..\sunamoWithoutDep\SunamoDebugging\SunamoDebugging.csproj", "{661A6D2D-7FB3-463F-AFCC-AFF1EAB3F173}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,10 +82,10 @@ Global
 		{F746209A-F7F3-43B6-B644-8E36BA287E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F746209A-F7F3-43B6-B644-8E36BA287E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F746209A-F7F3-43B6-B644-8E36BA287E8C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{539D794E-1031-4FD9-BC27-A67570383F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{539D794E-1031-4FD9-BC27-A67570383F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{539D794E-1031-4FD9-BC27-A67570383F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{539D794E-1031-4FD9-BC27-A67570383F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C45A56-F726-4B63-B94B-4172AC65F358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C45A56-F726-4B63-B94B-4172AC65F358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C45A56-F726-4B63-B94B-4172AC65F358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C45A56-F726-4B63-B94B-4172AC65F358}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6576EA69-6270-483C-95E6-F26FB8242DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6576EA69-6270-483C-95E6-F26FB8242DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6576EA69-6270-483C-95E6-F26FB8242DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -97,10 +98,10 @@ Global
 		{A6800AD7-53FE-442B-B428-DA0E59EF4EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6800AD7-53FE-442B-B428-DA0E59EF4EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6800AD7-53FE-442B-B428-DA0E59EF4EE3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47A92337-E726-4C04-ADA4-780967254E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47A92337-E726-4C04-ADA4-780967254E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47A92337-E726-4C04-ADA4-780967254E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47A92337-E726-4C04-ADA4-780967254E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3204432D-B6E7-4481-BEB0-8B177AF809C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3204432D-B6E7-4481-BEB0-8B177AF809C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3204432D-B6E7-4481-BEB0-8B177AF809C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3204432D-B6E7-4481-BEB0-8B177AF809C2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1BE95B82-BE12-489D-9CDC-0278364FCB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1BE95B82-BE12-489D-9CDC-0278364FCB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BE95B82-BE12-489D-9CDC-0278364FCB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -117,6 +118,10 @@ Global
 		{1809AF97-F67C-44A4-A408-4AB58F445A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1809AF97-F67C-44A4-A408-4AB58F445A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1809AF97-F67C-44A4-A408-4AB58F445A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661A6D2D-7FB3-463F-AFCC-AFF1EAB3F173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661A6D2D-7FB3-463F-AFCC-AFF1EAB3F173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661A6D2D-7FB3-463F-AFCC-AFF1EAB3F173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661A6D2D-7FB3-463F-AFCC-AFF1EAB3F173}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
