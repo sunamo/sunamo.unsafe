@@ -38,7 +38,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XliffParser", "..\sunamo.no
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "extensions", "..\sunamo\extensions\extensions.csproj", "{1809AF97-F67C-44A4-A408-4AB58F445A84}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoDebugging", "..\sunamoWithoutDep\SunamoDebugging\SunamoDebugging.csproj", "{661A6D2D-7FB3-463F-AFCC-AFF1EAB3F173}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunamoDebugging", "..\sunamo\SunamoDebugging\SunamoDebugging.csproj", "{661A6D2D-7FB3-463F-AFCC-AFF1EAB3F173}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
