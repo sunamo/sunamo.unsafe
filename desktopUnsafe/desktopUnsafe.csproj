@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <OutputType>Library</OutputType>
     <AssemblyName>desktop.@unsafe</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -20,4 +20,10 @@
     <ProjectReference Include="..\..\sunamo\sunamo\sunamo.csproj"></ProjectReference>
     <ProjectReference Include="..\sharedUnsafe\sharedUnsafe.csproj"></ProjectReference>
   </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
 </Project>
