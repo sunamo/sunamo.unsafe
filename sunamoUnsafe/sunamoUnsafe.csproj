@@ -8,19 +8,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\sunamo\sunamo\sunamo.csproj"></ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\sunamo\Xlf\Xlf.csproj">
-      <Project>{00B76D22-B82F-43FD-AC48-4B1F56E6910F}</Project>
-      <Name>Xlf</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\sunamo\sunamo\sunamo.csproj" />
+    <ProjectReference Include="..\..\..\sunamo\Xlf\Xlf.csproj" />
+  </ItemGroup>
 </Project>
