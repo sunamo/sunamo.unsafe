@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <OutputType>Library</OutputType>
     <AssemblyName>desktop.@unsafe</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -15,10 +15,8 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\sunamoWithoutDep\SunamoExceptions\SunamoExceptions.csproj" />
-    <ProjectReference Include="..\..\..\sunamoWithoutDep\SunamoShared\SunamoShared.csproj" />
-    <ProjectReference Include="..\..\..\sunamo\shared\shared.csproj" />
-    <ProjectReference Include="..\..\..\sunamo\sunamo\sunamo.csproj" />
+    <PackageReference Include="SunamoExceptions" Version="*" />
+    <PackageReference Include="SunamoShared" Version="*" />
     <ProjectReference Include="..\sharedUnsafe\sharedUnsafe.csproj"></ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -15,7 +15,6 @@
     <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\sunamo\sunamo\sunamo.csproj" />
-    <ProjectReference Include="..\..\..\sunamo\Xlf\Xlf.csproj" />
+    <ProjectReference Include="..\..\..\sunamoWithoutLocalDep\Xlf\Xlf.csproj" />
   </ItemGroup>
 </Project>
