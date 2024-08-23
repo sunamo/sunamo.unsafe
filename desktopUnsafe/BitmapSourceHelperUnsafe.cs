@@ -1,5 +1,5 @@
 namespace desktop.@unsafe
-{
+
     public static class BitmapSourceHelperUnsafe
     {
         public static unsafe void CopyPixels(this BitmapSource source, PixelColor[,] pixels, int stride, int offset)
